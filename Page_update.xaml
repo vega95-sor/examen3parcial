@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Firebase_modelo_singleton.Page_update"
+             Title="Actualizar Persona">
+
+    <StackLayout Padding="20">
+        <Image VerticalOptions="Start" Margin="10" x:Name="photo" WidthRequest="100" HeightRequest="200" Background="BLACK"/>
+
+        <Button  Text="Tomar foto" TextColor="White" Margin="5" Clicked="btn_photo_Clicked"/>
+
+        <Entry x:Name="descripcionEntry" Placeholder="Descripcion" FontSize="16" BackgroundColor="White" />
+
+        <DatePicker x:Name="datePicker" />
+
+        <TimePicker x:Name="timePicker" />
+
+        <Button x:Name="btnGrabarAudio" Text="Grabar Audio" TextColor="White" Margin="5" Clicked="btnGrabarAudio_Clicked"/>
+
+        <Button x:Name="actualizarButton" Text="Actualizar" Clicked="actualizarButton_Clicked" BackgroundColor="#4CAF50" TextColor="White" FontSize="16" Margin="0,0,0,10"/>
+        <Label x:Name="lblUrl" IsVisible="false"/>
+    </StackLayout>
+
+</ContentPage>

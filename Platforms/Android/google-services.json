@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "646634058715",
+    "project_id": "fir-modelo-singleton",
+    "storage_bucket": "fir-modelo-singleton.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646634058715:android:439e3b3c473b894c4a2dfe",
+        "android_client_info": {
+          "package_name": "com.companyname.firebase_modelo_singleton"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdpHoreJkzKKnSbY5yL2N57h4zk70Vv0U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
